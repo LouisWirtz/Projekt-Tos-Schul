@@ -1,0 +1,140 @@
+p, h1, h2, a{
+	font-family: 'Segoe UI';
+	padding: 5px;
+}
+
+div{
+	border: 1px solid black;
+}
+
+h1{
+	border-left-style: solid;
+	background-color: #e6e6e6;
+}
+body{
+	background-color: #cccccc;
+	margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+	max-width: 100%;
+	width: 25%;
+	float: left;
+	padding-right: 5px;
+	background-color: #cccccc;
+	border-color: black;
+}
+.float-child {
+/*Header Platzierung*/
+	width: 50%;
+	max-width: 100%;
+    float: left;
+	padding-left: 5px;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child img {
+	width: 65px;
+}
+
+.header {
+	background-color: #cccccc;
+	padding: 5px;
+	text-align: left;
+	max-width: 100%;
+	/*border: 1px solid black;*/
+}
+
+.banner {
+	/*background-size: 150%;
+    /*max-width: 100%;
+    /*height: auto;
+    width: auto\9; /* ie8 */
+	width: 100%;
+	/*height: 300px;*/
+}
+
+.roller{
+	max-width: 40%;
+}
+
+/* Style the top navigation bar */
+.topnav {
+	overflow: hidden;
+	background-color: #cce6ff;
+	width: 100%;
+}
+
+/* Style the topnav links */
+.topnav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+	background-color: white;
+	color: black;
+}
+
+.sticky {
+	background-color: #ffffff;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.active {
+  background-color: #0084ff;
+}
+
+/* Create three equal columns that floats next to each other */
+.column2r {
+  float: left;
+  width: 70%;
+  padding: 15px;
+}
+
+.column2l {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Create tone column that floats */
+.column1 {
+  width: 100%;
+  padding: 10px;
+  /*background-color: #cce6ff;*/
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+  
+.footer{
+	background-color: black;
+	color: white;
+}
